@@ -1,0 +1,6 @@
+public boolean sleepIn(boolean weekday, boolean vacation) {
+  if (vacation) {
+    return true;
+  }
+  return !weekday;
+}
